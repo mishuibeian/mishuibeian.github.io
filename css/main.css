@@ -1,0 +1,283 @@
+.header_top,
+.header_top_outer,
+.header_top_inner,
+.header_top_aligner {
+    height : 35px;
+}
+
+.header_mid,
+.header_mid_outer,
+.header_mid .header_mid_inner .search_wrap_inner,
+.header_mid .header_mid_inner .slogan_wrap_inner,
+.header_mid .header_mid_inner .social_wrap_inner,
+.header_mid .header_mid_inner nav > div > ul,
+.header_mid .header_mid_inner nav > div > ul > li,
+.header_mid .header_mid_inner nav > div > ul > li > a,
+.header_mid .header_mid_inner nav > div > ul > li > a > span.nav_bg_clr,
+.header_mid .header_mid_inner .logo,
+.header_mid .header_mid_inner .resp_nav_wrap_inner {
+    height : 95px;
+}
+
+.header_bot,
+.header_bot_outer,
+.header_bot .header_bot_inner nav > div > ul,
+.header_bot .header_bot_inner nav > div > ul > li,
+.header_bot .header_bot_inner nav > div > ul > li > a {
+    height : 50px;
+}
+
+#page.fixed_header #middle {
+    padding-top : 95px;
+}
+
+#page.fixed_header.enable_header_top #middle {
+    padding-top : 130px;
+}
+
+#page.fixed_header.enable_header_bottom #middle {
+    padding-top : 145px;
+}
+
+#page.fixed_header.enable_header_top.enable_header_bottom #middle {
+    padding-top : 180px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .header_top,
+    .header_top_outer,
+    .header_top_inner,
+    .header_top_aligner,
+    .header_mid,
+    .header_mid_outer,
+    .header_mid .header_mid_inner nav > div > ul,
+    .header_mid .header_mid_inner nav > div > ul > li,
+    .header_mid .header_mid_inner nav > div > ul > li > a,
+    .header_mid .header_mid_inner nav > div > ul > li > a > span.nav_bg_clr,
+    .header_bot,
+    .header_bot_outer,
+    .header_bot .header_bot_inner nav > div > ul,
+    .header_bot .header_bot_inner nav > div > ul > li,
+    .header_bot .header_bot_inner nav > div > ul > li > a {
+        height : auto;
+    }
+
+    #page.fixed_header #middle,
+    #page.fixed_header.enable_header_top #middle,
+    #page.fixed_header.enable_header_bottom #middle,
+    #page.fixed_header.enable_header_top.enable_header_bottom #middle {
+        padding-top : 0px !important;
+    }
+}
+.header_mid_inner .logo {
+    position:static;
+}
+body {
+    background-color : #ffffff;
+    background-image : url(../img/retina_wood1.png);
+    background-position : top left;
+    background-repeat : repeat;
+    background-attachment : scroll;
+    background-size : auto;
+
+}
+#footer.cmsms_footer_default .footer_inner {
+    min-height:450px;
+}
+
+.fixed_footer #main {
+    margin-bottom:450px;
+}
+
+
+#cmsms_row_56bf692b90dfa .cmsms_row_outer_parent {
+    padding-top: 40px;
+}
+
+#cmsms_row_56bf692b90dfa .cmsms_row_outer_parent {
+    padding-bottom: 40px;
+}
+
+
+#cmsms_row_56bf692b9b501 .cmsms_row_outer_parent {
+    padding-top: 0px;
+}
+
+#cmsms_row_56bf692b9b501 .cmsms_row_outer_parent {
+    padding-bottom: 0px;
+}
+
+
+#cmsms_row_56bf692b9c0e3 .cmsms_row_outer_parent {
+    padding-top: 0px;
+}
+
+#cmsms_row_56bf692b9c0e3 .cmsms_row_outer_parent {
+    padding-bottom: 0px;
+}
+
+
+#cmsms_divider_56bf692b9c2e2 {
+    padding-top:20px;
+    margin-bottom:40px;
+}
+
+#cmsms_row_56bf692b9c3c6 .cmsms_row_outer_parent {
+    padding-top: 0px;
+}
+
+#cmsms_row_56bf692b9c3c6 .cmsms_row_outer_parent {
+    padding-bottom: 0px;
+}
+
+
+#cmsms_heading_56bf692b9c5d9, #cmsms_heading_56bf692b9c5d9 a {
+    text-align:left;
+    font-weight:400;
+    font-style:normal;
+    margin-top:0px;
+    margin-bottom:30px;
+}
+
+#cmsms_row_56bf692b9c6c3 .cmsms_row_outer_parent {
+    padding-top: 0px;
+}
+
+#cmsms_row_56bf692b9c6c3 .cmsms_row_outer_parent {
+    padding-bottom: 0px;
+}
+
+
+#cmsms_row_56bf692ba7900 .cmsms_row_outer_parent {
+    padding-top: 0px;
+}
+
+#cmsms_row_56bf692ba7900 .cmsms_row_outer_parent {
+    padding-bottom: 0px;
+}
+
+
+#cmsms_divider_56bf692ba7b62 {
+    padding-top:20px;
+    margin-bottom:40px;
+}
+
+#cmsms_row_56bf692ba7c6b .cmsms_row_outer_parent {
+    padding-top: 0px;
+}
+
+#cmsms_row_56bf692ba7c6b .cmsms_row_outer_parent {
+    padding-bottom: 10px;
+}
+
+
+#cmsms_heading_56bf692ba7f63, #cmsms_heading_56bf692ba7f63 a {
+    text-align:left;
+    font-weight:400;
+    font-style:normal;
+    margin-top:0px;
+    margin-bottom:30px;
+}
+
+.cmsms_stats.shortcode_animated #cmsms_stat_56bf692ba80dc.cmsms_stat {
+    width:82%;
+}
+
+
+.cmsms_stats.shortcode_animated #cmsms_stat_56bf692ba8161.cmsms_stat {
+    width:87%;
+}
+
+
+.cmsms_stats.shortcode_animated #cmsms_stat_56bf692ba81dd.cmsms_stat {
+    width:76%;
+}
+
+
+.cmsms_stats.shortcode_animated #cmsms_stat_56bf692ba8258.cmsms_stat {
+    width:93%;
+}
+
+
+#cmsms_heading_56bf692ba862f, #cmsms_heading_56bf692ba862f a {
+    text-align:left;
+    font-weight:400;
+    font-style:normal;
+    margin-top:0px;
+    margin-bottom:20px;
+}
+
+#cmsms_heading_56bf692ba9b28, #cmsms_heading_56bf692ba9b28 a {
+    text-align:left;
+    font-weight:400;
+    font-style:normal;
+    margin-top:0px;
+    margin-bottom:30px;
+}
+
+#cmsms_paypal_donations_56bf692ba9d01 {
+    text-align:left;
+}
+
+#cmsms_paypal_donations_56bf692ba9d01 .cmsms_button:before {
+    margin-right:0;
+    margin-left:0;
+    vertical-align:baseline;
+}
+
+#cmsms_paypal_donations_56bf692ba9d01 .cmsms_button {
+    font-size:14px;
+    line-height:36px;
+    font-weight:400;
+    font-style:normal;
+    border-width:2px;
+    border-style:solid;
+}
+#cmsms_paypal_donations_56bf692ba9d01 form:hover + .cmsms_button {
+}
+
+#cmsms_row_56bf692baa204 .cmsms_row_outer_parent {
+    padding-top: 0px;
+}
+
+#cmsms_row_56bf692baa204 .cmsms_row_outer_parent {
+    padding-bottom: 0px;
+}
+
+
+#cmsms_divider_56bf692baa443 {
+    padding-top:20px;
+    margin-bottom:40px;
+}
+
+#cmsms_row_56bf692baa545 .cmsms_row_outer_parent {
+    padding-top: 0px;
+}
+
+#cmsms_row_56bf692baa545 .cmsms_row_outer_parent {
+    padding-bottom: 0px;
+}
+
+
+#cmsms_heading_56bf692baa814, #cmsms_heading_56bf692baa814 a {
+    text-align:left;
+    font-weight:400;
+    font-style:normal;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+#cmsms_clients_56bf692baa8aa .cmsms_clients_item { height:130px; line-height:130px; }
+#cmsms_clients_56bf692baa8aa .cmsms_clients_item a { line-height:130px; }
+
+#cmsms_row_56bf692bac586 {
+    background-color: #3f3932;
+}
+
+#cmsms_row_56bf692bac586 .cmsms_row_outer_parent {
+    padding-top: 40px;
+}
+
+#cmsms_row_56bf692bac586 .cmsms_row_outer_parent {
+    padding-bottom: 0px;
+}
